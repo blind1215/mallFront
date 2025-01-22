@@ -7,7 +7,7 @@ const Loding = <div>Loading...</div>
 // 지연로딩
 const Main = lazy(() => import("../pages/MainPage"));
 const About = lazy(() => import("../pages/AboutPage"));
-const TodoIndex = lazy(()=> import("../pages/todo/indexPage"));
+const TodoIndex = lazy(()=> import("../pages/todo/IndexPage"));
 
 
 
